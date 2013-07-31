@@ -1,0 +1,15 @@
+{
+    "name": "_auth",
+    "version": "0.0.1",
+    "description": "_auth",
+    "modules": ["lib"],
+    "load": "lib/auth",
+    "coffee-script": {
+        "modules": ["lib"]
+    },
+    "dependencies": {
+        "coffee-script-precompiler": null,
+        "modules": null,
+        "properties": null
+    }
+}
