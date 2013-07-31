@@ -3,7 +3,15 @@
     "version": "0.0.1",
     "description": "Pieces Of Milk",
     "attachments": ["static"],
+    "modules": ["lib"],
+    "load": "lib/app",
+    "coffee-script": {
+        "modules": ["lib"]
+    },
     "dependencies": {
-        "attachments": null
+        "attachments": null,
+        "coffee-script-precompiler": null,
+        "modules": null,
+        "properties": null
     }
 }
