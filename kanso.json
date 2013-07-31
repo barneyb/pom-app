@@ -1,0 +1,9 @@
+{
+    "name": "pom-app",
+    "version": "0.0.1",
+    "description": "Pieces Of Milk",
+    "attachments": ["static"],
+    "dependencies": {
+        "attachments": null
+    }
+}
