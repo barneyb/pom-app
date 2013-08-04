@@ -2,7 +2,7 @@
     "name": "pom-app",
     "version": "0.0.1",
     "description": "Pieces Of Milk",
-    "attachments": ["static"],
+    "attachments": ["public"],
     "modules": ["lib"],
     "load": "lib/app",
     "coffee-script": {
