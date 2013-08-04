@@ -8,10 +8,18 @@
     "coffee-script": {
         "modules": ["lib"]
     },
+    "handlebars": {
+        "templates": "templates"
+    },
     "dependencies": {
         "attachments": null,
         "coffee-script-precompiler": null,
         "modules": null,
-        "properties": null
+        "properties": null,
+        "db": null,
+        "jquery": null,
+        "handlebars": null,
+        "handlebars-helpers": null,
+        "backbone": null
     }
 }

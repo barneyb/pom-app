@@ -5,5 +5,27 @@
 </head>
 <body>
 <h1>Hello!</h1>
+<ul id="products"></ul>
+<script type="text/javascript" src="../modules.js"></script>
+<script type="text/javascript">
+    var db = require('db');
+    var pom = db.use('/piecesofmilk');
+    var Backbone = require('backbone');
+    var $ = require('jquery');
+    var ids = [];
+
+    pom.getView('pom-app', 'all-products', function (err, data) {
+        if (err) {
+            // an error occurred
+            return alert(err);
+        }
+        for (var i = 0, l = data.rows.length; i < l; i++) {
+            ids.push(data.rows[i].id);
+        }
+        ids.forEach(function(it) {
+        	$("#products").append($("<li>").text(it))
+        });
+    });
+</script>
 </body>
 </html>
