@@ -5,7 +5,7 @@
 </head>
 <body>
 <h1>Hello!</h1>
-<ul id="products"></ul>
+<section id="products"></section>
 <script type="text/javascript" src="../modules.js"></script>
 <script type="text/javascript">
     var db = require('db');
@@ -14,7 +14,7 @@
     var $ = require('jquery');
     var ids = [];
 
-    pom.getView('pom-app', 'all-products', function (err, data) {
+    pom.getView('piecesofmilk', 'all-products', function (err, data) {
         if (err) {
             // an error occurred
             return alert(err);

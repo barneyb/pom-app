@@ -1,8 +1,8 @@
 {
-    "name": "pom-app",
+    "name": "piecesofmilk",
     "version": "0.0.1",
     "description": "Pieces Of Milk",
-    "attachments": ["public"],
+    "attachments": ["static"],
     "modules": ["lib"],
     "load": "lib/app",
     "coffee-script": {

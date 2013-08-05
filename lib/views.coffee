@@ -20,4 +20,4 @@ module.exports =
 		reduce: reduceCount
 	"all-products":
 		map: (doc) ->
-			emit(doc.title, null) if doc.title
+			emit(doc.title, doc) if doc.title

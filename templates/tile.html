@@ -1,6 +1,12 @@
-<article id="product-{{id}}" class="product">
-	<header>
-		<h1>{{title}}</h1>
-	</header>
-	<p>{{image.root}}_grande.{{image.ext}}
+<article id="product-{{_id}}" class="tile product{{#each categories}} cat-{{this}}{{/each}} brand-{{brand}}">
+	{{!
+		1024x1024	1024
+		grande 		600
+		large 		480
+		medium 		240
+		small 		100
+	}}
+	<img src="{{image.root}}_large.{{image.ext}}" />
+	<div><strong><a href="{{url}}">{{title}}</a></strong>
+	</div>
 </article>

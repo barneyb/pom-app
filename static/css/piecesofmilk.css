@@ -1,0 +1,13 @@
+@import "bootstrap.min.css";
+@import "bootstrap-responsive.min.css";
+
+.tile {
+	width: 200px;
+	min-height: 350px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.tile img {
+	border: 1px solid #eee;
+}
